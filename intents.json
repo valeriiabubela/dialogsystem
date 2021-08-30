@@ -1,0 +1,22 @@
+{"intents":  [
+  {"tag": "Neuinfektionen",
+  "patterns":  ["Wie viele Neuifektionen gab es?", "Wie viele Menschen wurden infiziert?", "Neuinfektionen", "Neue Fälle", "Wie viele Neuifektionen wurden gemeldet?"],
+  "responses":  ["0"]
+  },
+  {"tag": "Inzidenz",
+  "patterns":  ["Die aktuelle Inzidenz", "Sieben-Tage-Inzidenz", "Wie hoch ist die Inzidenz?", "sieben Tage Inzidenz"],
+  "responses":  ["1"]
+  },
+  {"tag": "Todesfälle",
+  "patterns":  ["Wie viele Menschen sind gestorben?", "Wie ist die Anzahl von Gestorbenen?", "Gestorbene", "tot", "Todeszahl", "Todeszahlen"],
+  "responses":  ["2"]
+  },
+  {"tag": "Impfungen",
+  "patterns":  ["Wie viele Menschen sind geimpft?", "Anzahl von Geimpften", "Geimpfte", "Impfungen mit Biontech", "Impfungen mit Moderna", "Impfungen mit AstraZeneca", "Impfungen mit Janssen", "Impfzahlen", "Impfzahl", "Impfquote", "Impfungen", "Impfung"],
+  "responses":  ["3"]
+  },
+  {"tag": "Genesene",
+  "patterns":  ["Wie viele Menschen sind genesen?", "Anzahl von Genesenen", "Was ist die Anzahl von genesenen Personen?", "Genesene", "Wie viele Menschen sind wieder gesund", "die Krankheit überstanden"],
+  "responses":  ["4"]
+  }
+]}
